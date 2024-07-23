@@ -8,6 +8,7 @@ function openContactForm(recipient) {
   modal.show();
 }
 
+// Respuesta al Enviar el formularip del modal ♥ // 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
   event.preventDefault();
   alert('Formulario Enviado!');
